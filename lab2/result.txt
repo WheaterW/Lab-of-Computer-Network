@@ -1,0 +1,1111 @@
+SR
+******模拟网络环境******：模拟网络环境初始化...
+******模拟网络环境******：模拟网络环境启动...
+SR发送方发送报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
+SR发送方当前滑动窗口：[ (0,未确认) ]
+SR接收方正确接收到报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
+SR接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+SR接收方向应用层递交数据: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 0, checksum = 12851, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 1, acknum = -1, checksum = 26985, BBBBBBBBBBBBBBBBBBBB
+SR发送方当前滑动窗口：[ (1,未确认) ]
+SR发送方发送报文: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
+SR发送方当前滑动窗口：[ (1,未确认) (2,未确认) ]
+SR发送方发送报文: seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
+SR发送方当前滑动窗口：[ (1,未确认) (2,未确认) (3,未确认) ]
+SR发送方发送报文: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+SR发送方当前滑动窗口：[ (1,未确认) (2,未确认) (3,未确认) (4,未确认) ]
+SR发送方发送报文: seqnum = 5, acknum = -1, checksum = 16701, FFFFFFFFFFFFFFFFFFFF
+SR发送方当前滑动窗口：[ (1,未确认) (2,未确认) (3,未确认) (4,未确认) (5,未确认) ]
+SR接收方正确接收到报文: seqnum = 1, acknum = -1, checksum = 26985, BBBBBBBBBBBBBBBBBBBB
+SR接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+SR接收方向应用层递交数据: seqnum = 1, acknum = -1, checksum = 26985, BBBBBBBBBBBBBBBBBBBB
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
+SR接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR接收方当前滑动窗口：[ * 3 * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,未确认) (4,未确认) (5,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,已确认) (4,未确认) (5,未确认) ]
+SR接收方正确接收到报文: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+SR接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR接收方当前滑动窗口：[ * 3 4 * * * * * * ]
+SR接收方正确接收到报文: seqnum = 5, acknum = -1, checksum = 16701, FFFFFFFFFFFFFFFFFFFF
+SR接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR接收方当前滑动窗口：[ * 3 4 5 * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,已确认) (4,已确认) (5,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,已确认) (4,已确认) (5,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
+SR接收方正确接收到报文: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
+SR接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+SR接收方向应用层递交数据: seqnum = 2, acknum = -1, checksum = 24414, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+SR接收方向应用层递交数据: seqnum = 3, acknum = -1, checksum = 21843, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+SR接收方向应用层递交数据: seqnum = 4, acknum = -1, checksum = 19272, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+SR接收方向应用层递交数据: seqnum = 5, acknum = -1, checksum = 16701, FFFFFFFFFFFFFFFFFFFF
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 2, checksum = 12849, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR发送方当前滑动窗口：[ (6,未确认) ]
+SR发送方发送报文: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) ]
+SR发送方发送报文: seqnum = 8, acknum = -1, checksum = 8988, IIIIIIIIIIIIIIIIIIII
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,未确认) ]
+SR发送方发送报文: seqnum = 9, acknum = -1, checksum = 6417, JJJJJJJJJJJJJJJJJJJJ
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,未确认) (9,未确认) ]
+SR发送方发送报文: seqnum = 10, acknum = -1, checksum = 3846, KKKKKKKKKKKKKKKKKKKK
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,未确认) (9,未确认) (10,未确认) ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 6, acknum = -1, checksum = 14130, HGGGGGGGGGGGGGGGGGGG
+SR接收方正确接收到报文: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
+SR接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR接收方当前滑动窗口：[ * 7 * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 8, acknum = -1, checksum = 8988, IIIIIIIIIIIIIIIIIIII
+SR接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR接收方当前滑动窗口：[ * 7 8 * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,已确认) (8,未确认) (9,未确认) (10,未确认) ]
+SR接收方正确接收到报文: seqnum = 9, acknum = -1, checksum = 6417, JJJJJJJJJJJJJJJJJJJJ
+SR接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR接收方当前滑动窗口：[ * 7 8 9 * * * * * ]
+SR接收方正确接收到报文: seqnum = 10, acknum = -1, checksum = 3846, KKKKKKKKKKKKKKKKKKKK
+SR接收方发送确认报文: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR接收方当前滑动窗口：[ * 7 8 9 10 * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,已确认) (8,已确认) (9,未确认) (10,未确认) ]
+SR发送方收到的确认包校验有误
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR发送方定时器时间到，重发超时报文: seqnum = 9, acknum = -1, checksum = 6417, JJJJJJJJJJJJJJJJJJJJ
+SR发送方定时器时间到，重发超时报文: seqnum = 10, acknum = -1, checksum = 3846, KKKKKKKKKKKKKKKKKKKK
+SR接收方正确接收到报文: seqnum = 9, acknum = -1, checksum = 6417, JJJJJJJJJJJJJJJJJJJJ
+SR接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR接收方当前滑动窗口：[ * 7 8 9 10 * * * * ]
+SR接收方正确接收到报文: seqnum = 10, acknum = -1, checksum = 3846, KKKKKKKKKKKKKKKKKKKK
+SR接收方发送确认报文: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR接收方当前滑动窗口：[ * 7 8 9 10 * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,已确认) (8,已确认) (9,已确认) (10,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,已确认) (8,已确认) (9,已确认) (10,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR接收方正确接收到报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+SR接收方向应用层递交数据: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+SR接收方向应用层递交数据: seqnum = 7, acknum = -1, checksum = 11559, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+SR接收方向应用层递交数据: seqnum = 8, acknum = -1, checksum = 8988, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+SR接收方向应用层递交数据: seqnum = 9, acknum = -1, checksum = 6417, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+SR接收方向应用层递交数据: seqnum = 10, acknum = -1, checksum = 3846, KKKKKKKKKKKKKKKKKKKK
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 6, acknum = -1, checksum = 14130, HGGGGGGGGGGGGGGGGGGG
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 6, acknum = -1, checksum = 14130, GGGGGGGGGGGGGGGGGGGG
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 11, acknum = -1, checksum = 1275, LLLLLLLLLLLLLLLLLLLL
+SR发送方当前滑动窗口：[ (11,未确认) ]
+SR发送方发送报文: seqnum = 12, acknum = -1, checksum = 64239, MMMMMMMMMMMMMMMMMMMM
+SR发送方当前滑动窗口：[ (11,未确认) (12,未确认) ]
+SR发送方发送报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR发送方当前滑动窗口：[ (11,未确认) (12,未确认) (13,未确认) ]
+SR发送方发送报文: seqnum = 14, acknum = -1, checksum = 59097, OOOOOOOOOOOOOOOOOOOO
+SR发送方当前滑动窗口：[ (11,未确认) (12,未确认) (13,未确认) (14,未确认) ]
+SR发送方发送报文: seqnum = 15, acknum = -1, checksum = 56526, PPPPPPPPPPPPPPPPPPPP
+SR发送方当前滑动窗口：[ (11,未确认) (12,未确认) (13,未确认) (14,未确认) (15,未确认) ]
+SR接收方正确接收到报文: seqnum = 11, acknum = -1, checksum = 1275, LLLLLLLLLLLLLLLLLLLL
+SR接收方发送确认报文: seqnum = -1, acknum = 11, checksum = 12840, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+SR接收方向应用层递交数据: seqnum = 11, acknum = -1, checksum = 1275, LLLLLLLLLLLLLLLLLLLL
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = -999999, acknum = -1, checksum = 64239, MMMMMMMMMMMMMMMMMMMM
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 11, checksum = 12840, ....................
+SR发送方当前滑动窗口：[ (12,未确认) (13,未确认) (14,未确认) (15,未确认) ]
+SR接收方正确接收到报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方发送确认报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR接收方当前滑动窗口：[ * 13 * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 14, acknum = -1, checksum = 59097, OOOOOOOOOOOOOOOOOOOO
+SR接收方发送确认报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR接收方当前滑动窗口：[ * 13 14 * * * * * * ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 15, acknum = -1, checksum = 56526, QPPPPPPPPPPPPPPPPPPP
+SR发送方定时器时间到，重发超时报文: seqnum = 12, acknum = -1, checksum = 64239, MMMMMMMMMMMMMMMMMMMM
+SR发送方定时器时间到，重发超时报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR发送方定时器时间到，重发超时报文: seqnum = 14, acknum = -1, checksum = 59097, OOOOOOOOOOOOOOOOOOOO
+SR发送方定时器时间到，重发超时报文: seqnum = 15, acknum = -1, checksum = 56526, PPPPPPPPPPPPPPPPPPPP
+SR接收方正确接收到报文: seqnum = 12, acknum = -1, checksum = 64239, MMMMMMMMMMMMMMMMMMMM
+SR接收方发送确认报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+SR接收方向应用层递交数据: seqnum = 12, acknum = -1, checksum = 64239, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+SR接收方向应用层递交数据: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+SR接收方向应用层递交数据: seqnum = 14, acknum = -1, checksum = 59097, OOOOOOOOOOOOOOOOOOOO
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 12, checksum = 12839, ....................
+SR发送方当前滑动窗口：[ (13,未确认) (14,未确认) (15,未确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 14, acknum = -1, checksum = 59097, OOOOOOOOOOOOOOOOOOOO
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方当前滑动窗口：[ (13,未确认) (14,已确认) (15,未确认) ]
+SR接收方正确接收到报文: seqnum = 15, acknum = -1, checksum = 56526, PPPPPPPPPPPPPPPPPPPP
+SR接收方发送确认报文: seqnum = -1, acknum = 15, checksum = 12836, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+SR接收方向应用层递交数据: seqnum = 15, acknum = -1, checksum = 56526, PPPPPPPPPPPPPPPPPPPP
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 15, checksum = 12836, ....................
+SR发送方当前滑动窗口：[ (13,未确认) (14,已确认) (15,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 13, acknum = -1, checksum = 61668, ONNNNNNNNNNNNNNNNNNN
+SR发送方定时器时间到，重发超时报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR发送方定时器时间到，重发超时报文: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 13, acknum = -1, checksum = 61668, NNNNNNNNNNNNNNNNNNNN
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 16, acknum = -1, checksum = 53955, QQQQQQQQQQQQQQQQQQQQ
+SR发送方当前滑动窗口：[ (16,未确认) ]
+SR发送方发送报文: seqnum = 17, acknum = -1, checksum = 51384, RRRRRRRRRRRRRRRRRRRR
+SR发送方当前滑动窗口：[ (16,未确认) (17,未确认) ]
+SR发送方发送报文: seqnum = 18, acknum = -1, checksum = 48813, SSSSSSSSSSSSSSSSSSSS
+SR发送方当前滑动窗口：[ (16,未确认) (17,未确认) (18,未确认) ]
+SR发送方发送报文: seqnum = 19, acknum = -1, checksum = 46242, TTTTTTTTTTTTTTTTTTTT
+SR发送方当前滑动窗口：[ (16,未确认) (17,未确认) (18,未确认) (19,未确认) ]
+SR发送方发送报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR发送方当前滑动窗口：[ (16,未确认) (17,未确认) (18,未确认) (19,未确认) (20,未确认) ]
+SR接收方正确接收到报文: seqnum = 16, acknum = -1, checksum = 53955, QQQQQQQQQQQQQQQQQQQQ
+SR接收方发送确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+SR接收方向应用层递交数据: seqnum = 16, acknum = -1, checksum = 53955, QQQQQQQQQQQQQQQQQQQQ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 17, acknum = -1, checksum = 51384, RRRRRRRRRRRRRRRRRRRR
+SR接收方发送确认报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+SR接收方向应用层递交数据: seqnum = 17, acknum = -1, checksum = 51384, RRRRRRRRRRRRRRRRRRRR
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 16, checksum = 12835, ....................
+SR发送方当前滑动窗口：[ (17,未确认) (18,未确认) (19,未确认) (20,未确认) ]
+SR接收方正确接收到报文: seqnum = 18, acknum = -1, checksum = 48813, SSSSSSSSSSSSSSSSSSSS
+SR接收方发送确认报文: seqnum = -1, acknum = 18, checksum = 12833, ....................
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+SR接收方向应用层递交数据: seqnum = 18, acknum = -1, checksum = 48813, SSSSSSSSSSSSSSSSSSSS
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 18, checksum = 12833, ....................
+SR发送方当前滑动窗口：[ (17,未确认) (18,已确认) (19,未确认) (20,未确认) ]
+SR接收方正确接收到报文: seqnum = 19, acknum = -1, checksum = 46242, TTTTTTTTTTTTTTTTTTTT
+SR接收方发送确认报文: seqnum = -1, acknum = 19, checksum = 12832, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+SR接收方向应用层递交数据: seqnum = 19, acknum = -1, checksum = 46242, TTTTTTTTTTTTTTTTTTTT
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 20, acknum = -1, checksum = 43671, VUUUUUUUUUUUUUUUUUUU
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 19, checksum = 12832, ....................
+SR发送方当前滑动窗口：[ (17,未确认) (18,已确认) (19,已确认) (20,未确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 17, acknum = -1, checksum = 51384, RRRRRRRRRRRRRRRRRRRR
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 17, acknum = -1, checksum = 51384, RRRRRRRRRRRRRRRRRRRR
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+SR发送方定时器时间到，重发超时报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 17, checksum = 12834, ....................
+SR发送方当前滑动窗口：[ (20,未确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方正确接收到报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方发送确认报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+SR接收方向应用层递交数据: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+SR发送方定时器时间到，重发超时报文: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 20, acknum = -1, checksum = 43671, UUUUUUUUUUUUUUUUUUUU
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 20, checksum = 12831, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 21, acknum = -1, checksum = 41100, VVVVVVVVVVVVVVVVVVVV
+SR发送方当前滑动窗口：[ (21,未确认) ]
+SR发送方发送报文: seqnum = 22, acknum = -1, checksum = 38529, WWWWWWWWWWWWWWWWWWWW
+SR发送方当前滑动窗口：[ (21,未确认) (22,未确认) ]
+SR发送方发送报文: seqnum = 23, acknum = -1, checksum = 35958, XXXXXXXXXXXXXXXXXXXX
+SR发送方当前滑动窗口：[ (21,未确认) (22,未确认) (23,未确认) ]
+SR发送方发送报文: seqnum = 24, acknum = -1, checksum = 33387, YYYYYYYYYYYYYYYYYYYY
+SR发送方当前滑动窗口：[ (21,未确认) (22,未确认) (23,未确认) (24,未确认) ]
+SR发送方发送报文: seqnum = 25, acknum = -1, checksum = 30816, ZZZZZZZZZZZZZZZZZZZZ
+SR发送方当前滑动窗口：[ (21,未确认) (22,未确认) (23,未确认) (24,未确认) (25,未确认) ]
+SR接收方正确接收到报文: seqnum = 21, acknum = -1, checksum = 41100, VVVVVVVVVVVVVVVVVVVV
+SR接收方发送确认报文: seqnum = -1, acknum = 21, checksum = 12830, ....................
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+SR接收方向应用层递交数据: seqnum = 21, acknum = -1, checksum = 41100, VVVVVVVVVVVVVVVVVVVV
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 22, acknum = -1, checksum = 38529, WWWWWWWWWWWWWWWWWWWW
+SR接收方发送确认报文: seqnum = -1, acknum = 22, checksum = 12829, ....................
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+SR接收方向应用层递交数据: seqnum = 22, acknum = -1, checksum = 38529, WWWWWWWWWWWWWWWWWWWW
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 21, checksum = 12830, ....................
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) (24,未确认) (25,未确认) ]
+SR接收方正确接收到报文: seqnum = 23, acknum = -1, checksum = 35958, XXXXXXXXXXXXXXXXXXXX
+SR接收方发送确认报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+SR接收方向应用层递交数据: seqnum = 23, acknum = -1, checksum = 35958, XXXXXXXXXXXXXXXXXXXX
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 22, checksum = 12829, ....................
+SR发送方当前滑动窗口：[ (23,未确认) (24,未确认) (25,未确认) ]
+SR接收方正确接收到报文: seqnum = 24, acknum = -1, checksum = 33387, YYYYYYYYYYYYYYYYYYYY
+SR接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+SR接收方向应用层递交数据: seqnum = 24, acknum = -1, checksum = 33387, YYYYYYYYYYYYYYYYYYYY
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 23, checksum = 12828, ....................
+SR发送方当前滑动窗口：[ (24,未确认) (25,未确认) ]
+SR接收方正确接收到报文: seqnum = 25, acknum = -1, checksum = 30816, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方发送确认报文: seqnum = -1, acknum = 25, checksum = 12826, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+SR接收方向应用层递交数据: seqnum = 25, acknum = -1, checksum = 30816, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 25, checksum = 12826, ....................
+SR发送方当前滑动窗口：[ (24,未确认) (25,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 24, acknum = -1, checksum = 33387, YYYYYYYYYYYYYYYYYYYY
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 24, acknum = -1, checksum = 33387, YYYYYYYYYYYYYYYYYYYY
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 24, checksum = 12827, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 26, acknum = -1, checksum = 29530, AAAAAAAAAAAAAAAAAAAA
+SR发送方当前滑动窗口：[ (26,未确认) ]
+SR发送方发送报文: seqnum = 27, acknum = -1, checksum = 26959, BBBBBBBBBBBBBBBBBBBB
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) ]
+SR发送方发送报文: seqnum = 28, acknum = -1, checksum = 24388, CCCCCCCCCCCCCCCCCCCC
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) (28,未确认) ]
+SR发送方发送报文: seqnum = 29, acknum = -1, checksum = 21817, DDDDDDDDDDDDDDDDDDDD
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) (28,未确认) (29,未确认) ]
+SR发送方发送报文: seqnum = 30, acknum = -1, checksum = 19246, EEEEEEEEEEEEEEEEEEEE
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) (28,未确认) (29,未确认) (30,未确认) ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 27, acknum = -999999, checksum = 26959, BBBBBBBBBBBBBBBBBBBB
+SR接收方正确接收到报文: seqnum = 28, acknum = -1, checksum = 24388, CCCCCCCCCCCCCCCCCCCC
+SR接收方发送确认报文: seqnum = -1, acknum = 28, checksum = 12823, ....................
+SR接收方当前滑动窗口：[ * * 28 * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 28, checksum = 12823, ....................
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) (28,已确认) (29,未确认) (30,未确认) ]
+SR接收方正确接收到报文: seqnum = 29, acknum = -1, checksum = 21817, DDDDDDDDDDDDDDDDDDDD
+SR接收方发送确认报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+SR接收方当前滑动窗口：[ * * 28 29 * * * * * ]
+SR发送方收到的确认包校验有误
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 30, acknum = -1, checksum = 19246, FEEEEEEEEEEEEEEEEEEE
+SR发送方定时器时间到，重发超时报文: seqnum = 26, acknum = -1, checksum = 29530, AAAAAAAAAAAAAAAAAAAA
+SR发送方定时器时间到，重发超时报文: seqnum = 27, acknum = -1, checksum = 26959, BBBBBBBBBBBBBBBBBBBB
+SR发送方定时器时间到，重发超时报文: seqnum = 29, acknum = -1, checksum = 21817, DDDDDDDDDDDDDDDDDDDD
+SR发送方定时器时间到，重发超时报文: seqnum = 30, acknum = -1, checksum = 19246, EEEEEEEEEEEEEEEEEEEE
+SR接收方正确接收到报文: seqnum = 26, acknum = -1, checksum = 29530, AAAAAAAAAAAAAAAAAAAA
+SR接收方发送确认报文: seqnum = -1, acknum = 26, checksum = 12825, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+SR接收方向应用层递交数据: seqnum = 26, acknum = -1, checksum = 29530, AAAAAAAAAAAAAAAAAAAA
+SR接收方当前滑动窗口：[ * 28 29 * * * * * * ]
+SR接收方正确接收到报文: seqnum = 27, acknum = -1, checksum = 26959, BBBBBBBBBBBBBBBBBBBB
+SR接收方发送确认报文: seqnum = -1, acknum = 27, checksum = 12824, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+SR接收方向应用层递交数据: seqnum = 27, acknum = -1, checksum = 26959, BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+SR接收方向应用层递交数据: seqnum = 28, acknum = -1, checksum = 24388, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+SR接收方向应用层递交数据: seqnum = 29, acknum = -1, checksum = 21817, DDDDDDDDDDDDDDDDDDDD
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 26, checksum = 12825, ....................
+SR发送方当前滑动窗口：[ (27,未确认) (28,已确认) (29,未确认) (30,未确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 29, acknum = -1, checksum = 21817, DDDDDDDDDDDDDDDDDDDD
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+SR接收方正确接收到报文: seqnum = 30, acknum = -1, checksum = 19246, EEEEEEEEEEEEEEEEEEEE
+SR接收方发送确认报文: seqnum = -1, acknum = 30, checksum = 12821, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+SR接收方向应用层递交数据: seqnum = 30, acknum = -1, checksum = 19246, EEEEEEEEEEEEEEEEEEEE
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 27, checksum = 12824, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 29, checksum = 12822, ....................
+SR发送方当前滑动窗口：[ (30,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 30, checksum = 12821, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 31, acknum = -1, checksum = 16675, FFFFFFFFFFFFFFFFFFFF
+SR发送方当前滑动窗口：[ (31,未确认) ]
+SR发送方发送报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+SR发送方当前滑动窗口：[ (31,未确认) (0,未确认) ]
+SR发送方发送报文: seqnum = 1, acknum = -1, checksum = 11565, HHHHHHHHHHHHHHHHHHHH
+SR发送方当前滑动窗口：[ (31,未确认) (0,未确认) (1,未确认) ]
+SR发送方发送报文: seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
+SR发送方当前滑动窗口：[ (31,未确认) (0,未确认) (1,未确认) (2,未确认) ]
+SR发送方发送报文: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+SR发送方当前滑动窗口：[ (31,未确认) (0,未确认) (1,未确认) (2,未确认) (3,未确认) ]
+SR接收方正确接收到报文: seqnum = 31, acknum = -1, checksum = 16675, FFFFFFFFFFFFFFFFFFFF
+SR接收方发送确认报文: seqnum = -1, acknum = 31, checksum = 12820, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+SR接收方向应用层递交数据: seqnum = 31, acknum = -1, checksum = 16675, FFFFFFFFFFFFFFFFFFFF
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+SR接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+SR接收方向应用层递交数据: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 1, acknum = -1, checksum = 11565, HHHHHHHHHHHHHHHHHHHH
+SR接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+SR接收方向应用层递交数据: seqnum = 1, acknum = -1, checksum = 11565, HHHHHHHHHHHHHHHHHHHH
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 0, checksum = 12851, ....................
+SR发送方当前滑动窗口：[ (31,未确认) (0,已确认) (1,未确认) (2,未确认) (3,未确认) ]
+SR接收方正确接收到报文: seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
+SR接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+SR接收方向应用层递交数据: seqnum = 2, acknum = -1, checksum = 8994, IIIIIIIIIIIIIIIIIIII
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR发送方当前滑动窗口：[ (31,未确认) (0,已确认) (1,已确认) (2,未确认) (3,未确认) ]
+SR接收方正确接收到报文: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+SR接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+SR接收方向应用层递交数据: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 2, checksum = 12849, ....................
+SR发送方当前滑动窗口：[ (31,未确认) (0,已确认) (1,已确认) (2,已确认) (3,未确认) ]
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 31, acknum = -1, checksum = 16675, FFFFFFFFFFFFFFFFFFFF
+SR发送方定时器时间到，重发超时报文: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 31, acknum = -1, checksum = 16675, FFFFFFFFFFFFFFFFFFFF
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 31, checksum = 12820, ....................
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 3, acknum = -1, checksum = 6423, JJJJJJJJJJJJJJJJJJJJ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 31, checksum = 12820, ....................
+SR发送方当前滑动窗口：[ (3,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
+SR发送方当前滑动窗口：[ (4,未确认) ]
+SR发送方发送报文: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
+SR发送方当前滑动窗口：[ (4,未确认) (5,未确认) ]
+SR发送方发送报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+SR发送方当前滑动窗口：[ (4,未确认) (5,未确认) (6,未确认) ]
+SR发送方发送报文: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+SR发送方当前滑动窗口：[ (4,未确认) (5,未确认) (6,未确认) (7,未确认) ]
+SR发送方发送报文: seqnum = 8, acknum = -1, checksum = 59103, OOOOOOOOOOOOOOOOOOOO
+SR发送方当前滑动窗口：[ (4,未确认) (5,未确认) (6,未确认) (7,未确认) (8,未确认) ]
+SR接收方正确接收到报文: seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
+SR接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+SR接收方向应用层递交数据: seqnum = 4, acknum = -1, checksum = 3852, KKKKKKKKKKKKKKKKKKKK
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方当前滑动窗口：[ (5,未确认) (6,未确认) (7,未确认) (8,未确认) ]
+SR接收方正确接收到报文: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
+SR接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+SR接收方向应用层递交数据: seqnum = 5, acknum = -1, checksum = 1281, LLLLLLLLLLLLLLLLLLLL
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+SR接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+SR接收方向应用层递交数据: seqnum = 6, acknum = -1, checksum = 64245, MMMMMMMMMMMMMMMMMMMM
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) ]
+SR接收方正确接收到报文: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+SR接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+SR接收方向应用层递交数据: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+SR发送方定时器时间到，重发超时报文: seqnum = 8, acknum = -1, checksum = 59103, OOOOOOOOOOOOOOOOOOOO
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 7, acknum = -1, checksum = 61674, NNNNNNNNNNNNNNNNNNNN
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR接收方正确接收到报文: seqnum = 8, acknum = -1, checksum = 59103, OOOOOOOOOOOOOOOOOOOO
+SR接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+SR接收方向应用层递交数据: seqnum = 8, acknum = -1, checksum = 59103, OOOOOOOOOOOOOOOOOOOO
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方当前滑动窗口：[ (8,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 9, acknum = -1, checksum = 56532, PPPPPPPPPPPPPPPPPPPP
+SR发送方当前滑动窗口：[ (9,未确认) ]
+SR发送方发送报文: seqnum = 10, acknum = -1, checksum = 53961, QQQQQQQQQQQQQQQQQQQQ
+SR发送方当前滑动窗口：[ (9,未确认) (10,未确认) ]
+SR发送方发送报文: seqnum = 11, acknum = -1, checksum = 51390, RRRRRRRRRRRRRRRRRRRR
+SR发送方当前滑动窗口：[ (9,未确认) (10,未确认) (11,未确认) ]
+SR发送方发送报文: seqnum = 12, acknum = -1, checksum = 48819, SSSSSSSSSSSSSSSSSSSS
+SR发送方当前滑动窗口：[ (9,未确认) (10,未确认) (11,未确认) (12,未确认) ]
+SR发送方发送报文: seqnum = 13, acknum = -1, checksum = 46248, TTTTTTTTTTTTTTTTTTTT
+SR发送方当前滑动窗口：[ (9,未确认) (10,未确认) (11,未确认) (12,未确认) (13,未确认) ]
+SR接收方正确接收到报文: seqnum = 9, acknum = -1, checksum = 56532, PPPPPPPPPPPPPPPPPPPP
+SR接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+SR接收方向应用层递交数据: seqnum = 9, acknum = -1, checksum = 56532, PPPPPPPPPPPPPPPPPPPP
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR接收方正确接收到报文: seqnum = 10, acknum = -1, checksum = 53961, QQQQQQQQQQQQQQQQQQQQ
+SR接收方发送确认报文: seqnum = -1, acknum = 10, checksum = 12841, ....................
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+SR接收方向应用层递交数据: seqnum = 10, acknum = -1, checksum = 53961, QQQQQQQQQQQQQQQQQQQQ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 12, acknum = -1, checksum = 48819, SSSSSSSSSSSSSSSSSSSS
+SR接收方发送确认报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+SR接收方当前滑动窗口：[ * 12 * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR发送方当前滑动窗口：[ (9,未确认) (10,已确认) (11,未确认) (12,未确认) (13,未确认) ]
+SR接收方正确接收到报文: seqnum = 13, acknum = -1, checksum = 46248, TTTTTTTTTTTTTTTTTTTT
+SR接收方发送确认报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR接收方当前滑动窗口：[ * 12 13 * * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR发送方当前滑动窗口：[ (9,未确认) (10,已确认) (11,未确认) (12,未确认) (13,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 9, acknum = -1, checksum = 56532, PPPPPPPPPPPPPPPPPPPP
+SR发送方定时器时间到，重发超时报文: seqnum = 11, acknum = -1, checksum = 51390, RRRRRRRRRRRRRRRRRRRR
+SR发送方定时器时间到，重发超时报文: seqnum = 12, acknum = -1, checksum = 48819, SSSSSSSSSSSSSSSSSSSS
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 9, acknum = -1, checksum = 56532, PPPPPPPPPPPPPPPPPPPP
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR接收方正确接收到报文: seqnum = 11, acknum = -1, checksum = 51390, RRRRRRRRRRRRRRRRRRRR
+SR接收方发送确认报文: seqnum = -1, acknum = 11, checksum = 12840, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+SR接收方向应用层递交数据: seqnum = 11, acknum = -1, checksum = 51390, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+SR接收方向应用层递交数据: seqnum = 12, acknum = -1, checksum = 48819, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+SR接收方向应用层递交数据: seqnum = 13, acknum = -1, checksum = 46248, TTTTTTTTTTTTTTTTTTTT
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR发送方当前滑动窗口：[ (11,未确认) (12,未确认) (13,已确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 11, checksum = 12840, ....................
+SR发送方当前滑动窗口：[ (12,未确认) (13,已确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 12, acknum = -1, checksum = 48819, SSSSSSSSSSSSSSSSSSSS
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 12, checksum = 12839, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR发送方当前滑动窗口：[ (14,未确认) ]
+SR发送方发送报文: seqnum = 15, acknum = -1, checksum = 41106, VVVVVVVVVVVVVVVVVVVV
+SR发送方当前滑动窗口：[ (14,未确认) (15,未确认) ]
+SR发送方发送报文: seqnum = 16, acknum = -1, checksum = 38535, WWWWWWWWWWWWWWWWWWWW
+SR发送方当前滑动窗口：[ (14,未确认) (15,未确认) (16,未确认) ]
+SR发送方发送报文: seqnum = 17, acknum = -1, checksum = 35964, XXXXXXXXXXXXXXXXXXXX
+SR发送方当前滑动窗口：[ (14,未确认) (15,未确认) (16,未确认) (17,未确认) ]
+SR发送方发送报文: seqnum = 18, acknum = -1, checksum = 33393, YYYYYYYYYYYYYYYYYYYY
+SR发送方当前滑动窗口：[ (14,未确认) (15,未确认) (16,未确认) (17,未确认) (18,未确认) ]
+SR接收方正确接收到报文: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR接收方发送确认报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+SR接收方向应用层递交数据: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR接收方正确接收到报文: seqnum = 15, acknum = -1, checksum = 41106, VVVVVVVVVVVVVVVVVVVV
+SR接收方发送确认报文: seqnum = -1, acknum = 15, checksum = 12836, ....................
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+SR接收方向应用层递交数据: seqnum = 15, acknum = -1, checksum = 41106, VVVVVVVVVVVVVVVVVVVV
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 15, checksum = 12836, ....................
+SR发送方当前滑动窗口：[ (14,未确认) (15,已确认) (16,未确认) (17,未确认) (18,未确认) ]
+SR接收方正确接收到报文: seqnum = 16, acknum = -1, checksum = 38535, WWWWWWWWWWWWWWWWWWWW
+SR接收方发送确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+SR接收方向应用层递交数据: seqnum = 16, acknum = -1, checksum = 38535, WWWWWWWWWWWWWWWWWWWW
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 17, acknum = -1, checksum = 35964, XXXXXXXXXXXXXXXXXXXX
+SR接收方发送确认报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+SR接收方向应用层递交数据: seqnum = 17, acknum = -1, checksum = 35964, XXXXXXXXXXXXXXXXXXXX
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 16, checksum = 12835, ....................
+SR发送方当前滑动窗口：[ (14,未确认) (15,已确认) (16,已确认) (17,未确认) (18,未确认) ]
+SR接收方正确接收到报文: seqnum = 18, acknum = -1, checksum = 33393, YYYYYYYYYYYYYYYYYYYY
+SR接收方发送确认报文: seqnum = -1, acknum = 18, checksum = 12833, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+SR接收方向应用层递交数据: seqnum = 18, acknum = -1, checksum = 33393, YYYYYYYYYYYYYYYYYYYY
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 17, checksum = 12834, ....................
+SR发送方当前滑动窗口：[ (14,未确认) (15,已确认) (16,已确认) (17,已确认) (18,未确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR发送方定时器时间到，重发超时报文: seqnum = 18, acknum = -1, checksum = 33393, YYYYYYYYYYYYYYYYYYYY
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 18, checksum = 12833, ....................
+SR发送方当前滑动窗口：[ (14,未确认) (15,已确认) (16,已确认) (17,已确认) (18,已确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方收到的确认包校验有误
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 18, acknum = -1, checksum = 33393, ZYYYYYYYYYYYYYYYYYYY
+SR发送方定时器时间到，重发超时报文: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 14, acknum = -1, checksum = 43677, UUUUUUUUUUUUUUUUUUUU
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 19, acknum = -1, checksum = 30822, ZZZZZZZZZZZZZZZZZZZZ
+SR发送方当前滑动窗口：[ (19,未确认) ]
+SR发送方发送报文: seqnum = 20, acknum = -1, checksum = 29536, AAAAAAAAAAAAAAAAAAAA
+SR发送方当前滑动窗口：[ (19,未确认) (20,未确认) ]
+SR发送方发送报文: seqnum = 21, acknum = -1, checksum = 26965, BBBBBBBBBBBBBBBBBBBB
+SR发送方当前滑动窗口：[ (19,未确认) (20,未确认) (21,未确认) ]
+SR发送方发送报文: seqnum = 22, acknum = -1, checksum = 24394, CCCCCCCCCCCCCCCCCCCC
+SR发送方当前滑动窗口：[ (19,未确认) (20,未确认) (21,未确认) (22,未确认) ]
+SR发送方发送报文: seqnum = 23, acknum = -1, checksum = 21823, DDDDDDDDDDDDDDDDDDDD
+SR发送方当前滑动窗口：[ (19,未确认) (20,未确认) (21,未确认) (22,未确认) (23,未确认) ]
+SR接收方正确接收到报文: seqnum = 19, acknum = -1, checksum = 30822, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方发送确认报文: seqnum = -1, acknum = 19, checksum = 12832, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+SR接收方向应用层递交数据: seqnum = 19, acknum = -1, checksum = 30822, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 19, checksum = 12832, ....................
+SR发送方当前滑动窗口：[ (20,未确认) (21,未确认) (22,未确认) (23,未确认) ]
+SR接收方正确接收到报文: seqnum = 20, acknum = -1, checksum = 29536, AAAAAAAAAAAAAAAAAAAA
+SR接收方发送确认报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+SR接收方向应用层递交数据: seqnum = 20, acknum = -1, checksum = 29536, AAAAAAAAAAAAAAAAAAAA
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 21, acknum = -1, checksum = 26965, BBBBBBBBBBBBBBBBBBBB
+SR接收方发送确认报文: seqnum = -1, acknum = 21, checksum = 12830, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+SR接收方向应用层递交数据: seqnum = 21, acknum = -1, checksum = 26965, BBBBBBBBBBBBBBBBBBBB
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 20, checksum = 12831, ....................
+SR发送方当前滑动窗口：[ (21,未确认) (22,未确认) (23,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 21, checksum = 12830, ....................
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) ]
+SR接收方正确接收到报文: seqnum = 22, acknum = -1, checksum = 24394, CCCCCCCCCCCCCCCCCCCC
+SR接收方发送确认报文: seqnum = -1, acknum = 22, checksum = 12829, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+SR接收方向应用层递交数据: seqnum = 22, acknum = -1, checksum = 24394, CCCCCCCCCCCCCCCCCCCC
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 23, acknum = -1, checksum = 21823, DDDDDDDDDDDDDDDDDDDD
+SR接收方发送确认报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+SR接收方向应用层递交数据: seqnum = 23, acknum = -1, checksum = 21823, DDDDDDDDDDDDDDDDDDDD
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 22, checksum = 12829, ....................
+SR发送方当前滑动窗口：[ (23,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 23, checksum = 12828, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 24, acknum = -1, checksum = 19252, EEEEEEEEEEEEEEEEEEEE
+SR发送方当前滑动窗口：[ (24,未确认) ]
+SR发送方发送报文: seqnum = 25, acknum = -1, checksum = 16681, FFFFFFFFFFFFFFFFFFFF
+SR发送方当前滑动窗口：[ (24,未确认) (25,未确认) ]
+SR发送方发送报文: seqnum = 26, acknum = -1, checksum = 14110, GGGGGGGGGGGGGGGGGGGG
+SR发送方当前滑动窗口：[ (24,未确认) (25,未确认) (26,未确认) ]
+SR发送方发送报文: seqnum = 27, acknum = -1, checksum = 11539, HHHHHHHHHHHHHHHHHHHH
+SR发送方当前滑动窗口：[ (24,未确认) (25,未确认) (26,未确认) (27,未确认) ]
+SR发送方发送报文: seqnum = 28, acknum = -1, checksum = 8968, IIIIIIIIIIIIIIIIIIII
+SR发送方当前滑动窗口：[ (24,未确认) (25,未确认) (26,未确认) (27,未确认) (28,未确认) ]
+SR接收方正确接收到报文: seqnum = 24, acknum = -1, checksum = 19252, EEEEEEEEEEEEEEEEEEEE
+SR接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+SR接收方向应用层递交数据: seqnum = 24, acknum = -1, checksum = 19252, EEEEEEEEEEEEEEEEEEEE
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 25, acknum = -1, checksum = 16681, FFFFFFFFFFFFFFFFFFFF
+SR接收方发送确认报文: seqnum = -1, acknum = 25, checksum = 12826, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+SR接收方向应用层递交数据: seqnum = 25, acknum = -1, checksum = 16681, FFFFFFFFFFFFFFFFFFFF
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 24, checksum = 12827, ....................
+SR发送方当前滑动窗口：[ (25,未确认) (26,未确认) (27,未确认) (28,未确认) ]
+SR接收方正确接收到报文: seqnum = 26, acknum = -1, checksum = 14110, GGGGGGGGGGGGGGGGGGGG
+SR接收方发送确认报文: seqnum = -1, acknum = 26, checksum = 12825, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+SR接收方向应用层递交数据: seqnum = 26, acknum = -1, checksum = 14110, GGGGGGGGGGGGGGGGGGGG
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 25, checksum = 12826, ....................
+SR发送方当前滑动窗口：[ (26,未确认) (27,未确认) (28,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 26, checksum = 12825, ....................
+SR发送方当前滑动窗口：[ (27,未确认) (28,未确认) ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 27, acknum = -1, checksum = 11539, IHHHHHHHHHHHHHHHHHHH
+SR接收方正确接收到报文: seqnum = 28, acknum = -1, checksum = 8968, IIIIIIIIIIIIIIIIIIII
+SR接收方发送确认报文: seqnum = -1, acknum = 28, checksum = 12823, ....................
+SR接收方当前滑动窗口：[ * 28 * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 28, checksum = 12823, ....................
+SR发送方当前滑动窗口：[ (27,未确认) (28,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 27, acknum = -1, checksum = 11539, HHHHHHHHHHHHHHHHHHHH
+SR接收方正确接收到报文: seqnum = 27, acknum = -1, checksum = 11539, HHHHHHHHHHHHHHHHHHHH
+SR接收方发送确认报文: seqnum = -1, acknum = 27, checksum = 12824, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+SR接收方向应用层递交数据: seqnum = 27, acknum = -1, checksum = 11539, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+SR接收方向应用层递交数据: seqnum = 28, acknum = -1, checksum = 8968, IIIIIIIIIIIIIIIIIIII
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 27, checksum = 12824, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 29, acknum = -1, checksum = 6397, JJJJJJJJJJJJJJJJJJJJ
+SR发送方当前滑动窗口：[ (29,未确认) ]
+SR发送方发送报文: seqnum = 30, acknum = -1, checksum = 3826, KKKKKKKKKKKKKKKKKKKK
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) ]
+SR发送方发送报文: seqnum = 31, acknum = -1, checksum = 1255, LLLLLLLLLLLLLLLLLLLL
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) (31,未确认) ]
+SR发送方发送报文: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) (31,未确认) (0,未确认) ]
+SR发送方发送报文: seqnum = 1, acknum = -1, checksum = 61680, NNNNNNNNNNNNNNNNNNNN
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) (31,未确认) (0,未确认) (1,未确认) ]
+SR接收方正确接收到报文: seqnum = 30, acknum = -1, checksum = 3826, KKKKKKKKKKKKKKKKKKKK
+SR接收方发送确认报文: seqnum = -1, acknum = 30, checksum = 12821, ....................
+SR接收方当前滑动窗口：[ * 30 * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 31, acknum = -1, checksum = 1255, LLLLLLLLLLLLLLLLLLLL
+SR接收方发送确认报文: seqnum = -1, acknum = 31, checksum = 12820, ....................
+SR接收方当前滑动窗口：[ * 30 31 * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 30, checksum = 12821, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,已确认) (31,未确认) (0,未确认) (1,未确认) ]
+SR接收方正确接收到报文: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+SR接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+SR接收方当前滑动窗口：[ * 30 31 0 * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 31, checksum = 12820, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,已确认) (31,已确认) (0,未确认) (1,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 0, checksum = 12851, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,已确认) (31,已确认) (0,已确认) (1,未确认) ]
+SR接收方正确接收到报文: seqnum = 1, acknum = -1, checksum = 61680, NNNNNNNNNNNNNNNNNNNN
+SR接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR接收方当前滑动窗口：[ * 30 31 0 1 * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,已确认) (31,已确认) (0,已确认) (1,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 29, acknum = -1, checksum = 6397, JJJJJJJJJJJJJJJJJJJJ
+SR接收方正确接收到报文: seqnum = 29, acknum = -1, checksum = 6397, JJJJJJJJJJJJJJJJJJJJ
+SR接收方发送确认报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+SR接收方向应用层递交数据: seqnum = 29, acknum = -1, checksum = 6397, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+SR接收方向应用层递交数据: seqnum = 30, acknum = -1, checksum = 3826, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+SR接收方向应用层递交数据: seqnum = 31, acknum = -1, checksum = 1255, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+SR接收方向应用层递交数据: seqnum = 0, acknum = -1, checksum = 64251, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+SR接收方向应用层递交数据: seqnum = 1, acknum = -1, checksum = 61680, NNNNNNNNNNNNNNNNNNNN
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 29, checksum = 12822, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
+SR发送方当前滑动窗口：[ (2,未确认) ]
+SR发送方发送报文: seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
+SR发送方当前滑动窗口：[ (2,未确认) (3,未确认) ]
+SR发送方发送报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR发送方当前滑动窗口：[ (2,未确认) (3,未确认) (4,未确认) ]
+SR发送方发送报文: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
+SR发送方当前滑动窗口：[ (2,未确认) (3,未确认) (4,未确认) (5,未确认) ]
+SR发送方发送报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+SR发送方当前滑动窗口：[ (2,未确认) (3,未确认) (4,未确认) (5,未确认) (6,未确认) ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 2, acknum = -1, checksum = 59109, POOOOOOOOOOOOOOOOOOO
+SR接收方正确接收到报文: seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
+SR接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR接收方当前滑动窗口：[ * 3 * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,已确认) (4,未确认) (5,未确认) (6,未确认) ]
+SR接收方正确接收到报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR接收方当前滑动窗口：[ * 3 4 * * * * * * ]
+SR接收方正确接收到报文: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
+SR接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR接收方当前滑动窗口：[ * 3 4 5 * * * * * ]
+SR接收方正确接收到报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+SR接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR接收方当前滑动窗口：[ * 3 4 5 6 * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR发送方当前滑动窗口：[ (2,未确认) (3,已确认) (4,未确认) (5,已确认) (6,未确认) ]
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+SR接收方正确接收到报文: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
+SR接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+SR接收方向应用层递交数据: seqnum = 2, acknum = -1, checksum = 59109, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+SR接收方向应用层递交数据: seqnum = 3, acknum = -1, checksum = 56538, PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+SR接收方向应用层递交数据: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+SR接收方向应用层递交数据: seqnum = 5, acknum = -1, checksum = 51396, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+SR接收方向应用层递交数据: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 2, checksum = 12849, ....................
+SR发送方当前滑动窗口：[ (4,未确认) (5,已确认) (6,未确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 6, acknum = -1, checksum = 48825, SSSSSSSSSSSSSSSSSSSS
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方当前滑动窗口：[ (4,未确认) (5,已确认) (6,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
+SR发送方当前滑动窗口：[ (7,未确认) ]
+SR发送方发送报文: seqnum = 8, acknum = -1, checksum = 43683, UUUUUUUUUUUUUUUUUUUU
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) ]
+SR发送方发送报文: seqnum = 9, acknum = -1, checksum = 41112, VVVVVVVVVVVVVVVVVVVV
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,未确认) ]
+SR发送方发送报文: seqnum = 10, acknum = -1, checksum = 38541, WWWWWWWWWWWWWWWWWWWW
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,未确认) (10,未确认) ]
+SR发送方发送报文: seqnum = 11, acknum = -1, checksum = 35970, XXXXXXXXXXXXXXXXXXXX
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,未确认) (10,未确认) (11,未确认) ]
+SR接收方正确接收到报文: seqnum = 9, acknum = -1, checksum = 41112, VVVVVVVVVVVVVVVVVVVV
+SR接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR接收方当前滑动窗口：[ * * 9 * * * * * * ]
+SR接收方正确接收到报文: seqnum = 10, acknum = -1, checksum = 38541, WWWWWWWWWWWWWWWWWWWW
+SR接收方发送确认报文: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR接收方当前滑动窗口：[ * * 9 10 * * * * * ]
+SR接收方正确接收到报文: seqnum = 11, acknum = -1, checksum = 35970, XXXXXXXXXXXXXXXXXXXX
+SR接收方发送确认报文: seqnum = -1, acknum = 11, checksum = 12840, ....................
+SR接收方当前滑动窗口：[ * * 9 10 11 * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 9, checksum = 12842, ....................
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,已确认) (10,未确认) (11,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 10, checksum = 12841, ....................
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,已确认) (10,已确认) (11,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 11, checksum = 12840, ....................
+SR发送方当前滑动窗口：[ (7,未确认) (8,未确认) (9,已确认) (10,已确认) (11,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
+SR发送方定时器时间到，重发超时报文: seqnum = 8, acknum = -1, checksum = 43683, UUUUUUUUUUUUUUUUUUUU
+SR接收方正确接收到报文: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
+SR接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+SR接收方向应用层递交数据: seqnum = 7, acknum = -1, checksum = 46254, TTTTTTTTTTTTTTTTTTTT
+SR接收方当前滑动窗口：[ * 9 10 11 * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方当前滑动窗口：[ (8,未确认) (9,已确认) (10,已确认) (11,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 8, acknum = -1, checksum = 43683, UUUUUUUUUUUUUUUUUUUU
+SR接收方正确接收到报文: seqnum = 8, acknum = -1, checksum = 43683, UUUUUUUUUUUUUUUUUUUU
+SR接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+SR接收方向应用层递交数据: seqnum = 8, acknum = -1, checksum = 43683, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+SR接收方向应用层递交数据: seqnum = 9, acknum = -1, checksum = 41112, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+SR接收方向应用层递交数据: seqnum = 10, acknum = -1, checksum = 38541, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+SR接收方向应用层递交数据: seqnum = 11, acknum = -1, checksum = 35970, XXXXXXXXXXXXXXXXXXXX
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 12, acknum = -1, checksum = 33399, YYYYYYYYYYYYYYYYYYYY
+SR发送方当前滑动窗口：[ (12,未确认) ]
+SR发送方发送报文: seqnum = 13, acknum = -1, checksum = 30828, ZZZZZZZZZZZZZZZZZZZZ
+SR发送方当前滑动窗口：[ (12,未确认) (13,未确认) ]
+SR发送方发送报文: seqnum = 14, acknum = -1, checksum = 29542, AAAAAAAAAAAAAAAAAAAA
+SR发送方当前滑动窗口：[ (12,未确认) (13,未确认) (14,未确认) ]
+SR发送方发送报文: seqnum = 15, acknum = -1, checksum = 26971, BBBBBBBBBBBBBBBBBBBB
+SR发送方当前滑动窗口：[ (12,未确认) (13,未确认) (14,未确认) (15,未确认) ]
+SR发送方发送报文: seqnum = 16, acknum = -1, checksum = 24400, CCCCCCCCCCCCCCCCCCCC
+SR发送方当前滑动窗口：[ (12,未确认) (13,未确认) (14,未确认) (15,未确认) (16,未确认) ]
+SR接收方正确接收到报文: seqnum = 12, acknum = -1, checksum = 33399, YYYYYYYYYYYYYYYYYYYY
+SR接收方发送确认报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+SR接收方向应用层递交数据: seqnum = 12, acknum = -1, checksum = 33399, YYYYYYYYYYYYYYYYYYYY
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 13, acknum = -1, checksum = 30828, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方发送确认报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+SR接收方向应用层递交数据: seqnum = 13, acknum = -1, checksum = 30828, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 12, checksum = 12839, ....................
+SR发送方当前滑动窗口：[ (13,未确认) (14,未确认) (15,未确认) (16,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 13, checksum = 12838, ....................
+SR发送方当前滑动窗口：[ (14,未确认) (15,未确认) (16,未确认) ]
+SR接收方正确接收到报文: seqnum = 14, acknum = -1, checksum = 29542, AAAAAAAAAAAAAAAAAAAA
+SR接收方发送确认报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+SR接收方向应用层递交数据: seqnum = 14, acknum = -1, checksum = 29542, AAAAAAAAAAAAAAAAAAAA
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 15, acknum = -1, checksum = 26971, BBBBBBBBBBBBBBBBBBBB
+SR接收方发送确认报文: seqnum = -1, acknum = 15, checksum = 12836, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+SR接收方向应用层递交数据: seqnum = 15, acknum = -1, checksum = 26971, BBBBBBBBBBBBBBBBBBBB
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 14, checksum = 12837, ....................
+SR发送方当前滑动窗口：[ (15,未确认) (16,未确认) ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 15, checksum = 12836, ....................
+SR发送方当前滑动窗口：[ (16,未确认) ]
+SR接收方正确接收到报文: seqnum = 16, acknum = -1, checksum = 24400, CCCCCCCCCCCCCCCCCCCC
+SR接收方发送确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+SR接收方向应用层递交数据: seqnum = 16, acknum = -1, checksum = 24400, CCCCCCCCCCCCCCCCCCCC
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 16, checksum = 12835, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 17, acknum = -1, checksum = 21829, DDDDDDDDDDDDDDDDDDDD
+SR发送方当前滑动窗口：[ (17,未确认) ]
+SR发送方发送报文: seqnum = 18, acknum = -1, checksum = 19258, EEEEEEEEEEEEEEEEEEEE
+SR发送方当前滑动窗口：[ (17,未确认) (18,未确认) ]
+SR发送方发送报文: seqnum = 19, acknum = -1, checksum = 16687, FFFFFFFFFFFFFFFFFFFF
+SR发送方当前滑动窗口：[ (17,未确认) (18,未确认) (19,未确认) ]
+SR发送方发送报文: seqnum = 20, acknum = -1, checksum = 14116, GGGGGGGGGGGGGGGGGGGG
+SR发送方当前滑动窗口：[ (17,未确认) (18,未确认) (19,未确认) (20,未确认) ]
+SR发送方发送报文: seqnum = 21, acknum = -1, checksum = 11545, HHHHHHHHHHHHHHHHHHHH
+SR发送方当前滑动窗口：[ (17,未确认) (18,未确认) (19,未确认) (20,未确认) (21,未确认) ]
+SR接收方正确接收到报文: seqnum = 17, acknum = -1, checksum = 21829, DDDDDDDDDDDDDDDDDDDD
+SR接收方发送确认报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+SR接收方向应用层递交数据: seqnum = 17, acknum = -1, checksum = 21829, DDDDDDDDDDDDDDDDDDDD
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 18, acknum = -1, checksum = 19258, EEEEEEEEEEEEEEEEEEEE
+SR接收方发送确认报文: seqnum = -1, acknum = 18, checksum = 12833, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+SR接收方向应用层递交数据: seqnum = 18, acknum = -1, checksum = 19258, EEEEEEEEEEEEEEEEEEEE
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 17, checksum = 12834, ....................
+SR发送方当前滑动窗口：[ (18,未确认) (19,未确认) (20,未确认) (21,未确认) ]
+SR接收方正确接收到报文: seqnum = 19, acknum = -1, checksum = 16687, FFFFFFFFFFFFFFFFFFFF
+SR接收方发送确认报文: seqnum = -1, acknum = 19, checksum = 12832, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+SR接收方向应用层递交数据: seqnum = 19, acknum = -1, checksum = 16687, FFFFFFFFFFFFFFFFFFFF
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 18, checksum = 12833, ....................
+SR发送方当前滑动窗口：[ (19,未确认) (20,未确认) (21,未确认) ]
+SR接收方正确接收到报文: seqnum = 20, acknum = -1, checksum = 14116, GGGGGGGGGGGGGGGGGGGG
+SR接收方发送确认报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+SR接收方向应用层递交数据: seqnum = 20, acknum = -1, checksum = 14116, GGGGGGGGGGGGGGGGGGGG
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 19, checksum = 12832, ....................
+SR发送方当前滑动窗口：[ (20,未确认) (21,未确认) ]
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 21, acknum = -1, checksum = 11545, IHHHHHHHHHHHHHHHHHHH
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 20, checksum = 12831, ....................
+SR发送方当前滑动窗口：[ (21,未确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 21, acknum = -1, checksum = 11545, HHHHHHHHHHHHHHHHHHHH
+SR接收方正确接收到报文: seqnum = 21, acknum = -1, checksum = 11545, HHHHHHHHHHHHHHHHHHHH
+SR接收方发送确认报文: seqnum = -1, acknum = 21, checksum = 12830, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+SR接收方向应用层递交数据: seqnum = 21, acknum = -1, checksum = 11545, HHHHHHHHHHHHHHHHHHHH
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 21, checksum = 12830, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 22, acknum = -1, checksum = 8974, IIIIIIIIIIIIIIIIIIII
+SR发送方当前滑动窗口：[ (22,未确认) ]
+SR发送方发送报文: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) ]
+SR发送方发送报文: seqnum = 24, acknum = -1, checksum = 3832, KKKKKKKKKKKKKKKKKKKK
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) (24,未确认) ]
+SR发送方发送报文: seqnum = 25, acknum = -1, checksum = 1261, LLLLLLLLLLLLLLLLLLLL
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) (24,未确认) (25,未确认) ]
+SR发送方发送报文: seqnum = 26, acknum = -1, checksum = 64225, MMMMMMMMMMMMMMMMMMMM
+SR发送方当前滑动窗口：[ (22,未确认) (23,未确认) (24,未确认) (25,未确认) (26,未确认) ]
+SR接收方正确接收到报文: seqnum = 22, acknum = -1, checksum = 8974, IIIIIIIIIIIIIIIIIIII
+SR接收方发送确认报文: seqnum = -1, acknum = 22, checksum = 12829, ....................
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+SR接收方向应用层递交数据: seqnum = 22, acknum = -1, checksum = 8974, IIIIIIIIIIIIIIIIIIII
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR接收方发送确认报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+SR接收方向应用层递交数据: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 24, acknum = -1, checksum = 3832, KKKKKKKKKKKKKKKKKKKK
+SR接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+SR接收方向应用层递交数据: seqnum = 24, acknum = -1, checksum = 3832, KKKKKKKKKKKKKKKKKKKK
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 22, checksum = 12829, ....................
+SR发送方当前滑动窗口：[ (23,未确认) (24,未确认) (25,未确认) (26,未确认) ]
+SR接收方正确接收到报文: seqnum = 25, acknum = -1, checksum = 1261, LLLLLLLLLLLLLLLLLLLL
+SR接收方发送确认报文: seqnum = -1, acknum = 25, checksum = 12826, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+SR接收方向应用层递交数据: seqnum = 25, acknum = -1, checksum = 1261, LLLLLLLLLLLLLLLLLLLL
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 24, checksum = 12827, ....................
+SR发送方当前滑动窗口：[ (23,未确认) (24,已确认) (25,未确认) (26,未确认) ]
+SR接收方正确接收到报文: seqnum = 26, acknum = -1, checksum = 64225, MMMMMMMMMMMMMMMMMMMM
+SR接收方发送确认报文: seqnum = -1, acknum = 26, checksum = 12825, ....................
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+SR接收方向应用层递交数据: seqnum = 26, acknum = -1, checksum = 64225, MMMMMMMMMMMMMMMMMMMM
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 25, checksum = 12826, ....................
+SR发送方当前滑动窗口：[ (23,未确认) (24,已确认) (25,已确认) (26,未确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR发送方定时器时间到，重发超时报文: seqnum = 26, acknum = -1, checksum = 64225, MMMMMMMMMMMMMMMMMMMM
+SR接收方没有正确接收到报文，数据校验出错: seqnum = 23, acknum = -1, checksum = 6403, KJJJJJJJJJJJJJJJJJJJ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 26, acknum = -1, checksum = 64225, MMMMMMMMMMMMMMMMMMMM
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 26, checksum = 12825, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 26, checksum = 12825, ....................
+SR发送方当前滑动窗口：[ (23,未确认) (24,已确认) (25,已确认) (26,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR发送方定时器时间到，重发超时报文: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 23, acknum = -1, checksum = 6403, JJJJJJJJJJJJJJJJJJJJ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 23, checksum = 12828, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 27, acknum = -1, checksum = 61654, NNNNNNNNNNNNNNNNNNNN
+SR发送方当前滑动窗口：[ (27,未确认) ]
+SR发送方发送报文: seqnum = 28, acknum = -1, checksum = 59083, OOOOOOOOOOOOOOOOOOOO
+SR发送方当前滑动窗口：[ (27,未确认) (28,未确认) ]
+SR发送方发送报文: seqnum = 29, acknum = -1, checksum = 56512, PPPPPPPPPPPPPPPPPPPP
+SR发送方当前滑动窗口：[ (27,未确认) (28,未确认) (29,未确认) ]
+SR发送方发送报文: seqnum = 30, acknum = -1, checksum = 53941, QQQQQQQQQQQQQQQQQQQQ
+SR发送方当前滑动窗口：[ (27,未确认) (28,未确认) (29,未确认) (30,未确认) ]
+SR发送方发送报文: seqnum = 31, acknum = -1, checksum = 51370, RRRRRRRRRRRRRRRRRRRR
+SR发送方当前滑动窗口：[ (27,未确认) (28,未确认) (29,未确认) (30,未确认) (31,未确认) ]
+SR接收方正确接收到报文: seqnum = 27, acknum = -1, checksum = 61654, NNNNNNNNNNNNNNNNNNNN
+SR接收方发送确认报文: seqnum = -1, acknum = 27, checksum = 12824, ....................
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+SR接收方向应用层递交数据: seqnum = 27, acknum = -1, checksum = 61654, NNNNNNNNNNNNNNNNNNNN
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 27, checksum = 12824, ....................
+SR发送方当前滑动窗口：[ (28,未确认) (29,未确认) (30,未确认) (31,未确认) ]
+SR接收方正确接收到报文: seqnum = 28, acknum = -1, checksum = 59083, OOOOOOOOOOOOOOOOOOOO
+SR接收方发送确认报文: seqnum = -1, acknum = 28, checksum = 12823, ....................
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+SR接收方向应用层递交数据: seqnum = 28, acknum = -1, checksum = 59083, OOOOOOOOOOOOOOOOOOOO
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 28, checksum = 12823, ....................
+SR发送方当前滑动窗口：[ (29,未确认) (30,未确认) (31,未确认) ]
+SR接收方正确接收到报文: seqnum = 29, acknum = -1, checksum = 56512, PPPPPPPPPPPPPPPPPPPP
+SR接收方发送确认报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+SR接收方向应用层递交数据: seqnum = 29, acknum = -1, checksum = 56512, PPPPPPPPPPPPPPPPPPPP
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 29, checksum = 12822, ....................
+SR发送方当前滑动窗口：[ (30,未确认) (31,未确认) ]
+SR接收方正确接收到报文: seqnum = 30, acknum = -1, checksum = 53941, QQQQQQQQQQQQQQQQQQQQ
+SR接收方发送确认报文: seqnum = -1, acknum = 30, checksum = 12821, ....................
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+SR接收方向应用层递交数据: seqnum = 30, acknum = -1, checksum = 53941, QQQQQQQQQQQQQQQQQQQQ
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方收到的确认包校验有误
+SR接收方正确接收到报文: seqnum = 31, acknum = -1, checksum = 51370, RRRRRRRRRRRRRRRRRRRR
+SR接收方发送确认报文: seqnum = -1, acknum = 31, checksum = 12820, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+SR接收方向应用层递交数据: seqnum = 31, acknum = -1, checksum = 51370, RRRRRRRRRRRRRRRRRRRR
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 31, checksum = 12820, ....................
+SR发送方当前滑动窗口：[ (30,未确认) (31,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 30, acknum = -1, checksum = 53941, QQQQQQQQQQQQQQQQQQQQ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 30, acknum = -1, checksum = 53941, QQQQQQQQQQQQQQQQQQQQ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 30, checksum = 12821, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 30, checksum = 12821, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+SR发送方当前滑动窗口：[ (0,未确认) ]
+SR发送方发送报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) ]
+SR发送方发送报文: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) (2,未确认) ]
+SR发送方发送报文: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) (2,未确认) (3,未确认) ]
+SR发送方发送报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) (2,未确认) (3,未确认) (4,未确认) ]
+SR接收方正确接收到报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+SR接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR接收方当前滑动窗口：[ * 1 * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+SR接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+SR接收方当前滑动窗口：[ * 1 2 * * * * * * ]
+SR接收方正确接收到报文: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+SR接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR接收方当前滑动窗口：[ * 1 2 3 * * * * * ]
+SR发送方收到的确认包校验有误
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 2, checksum = 12849, ....................
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) (2,已确认) (3,未确认) (4,未确认) ]
+SR接收方正确接收到报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+SR接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR接收方当前滑动窗口：[ * 1 2 3 4 * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 3, checksum = 12848, ....................
+SR发送方当前滑动窗口：[ (0,未确认) (1,未确认) (2,已确认) (3,已确认) (4,未确认) ]
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+SR发送方定时器时间到，重发超时报文: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+SR发送方定时器时间到，重发超时报文: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+SR接收方正确接收到报文: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+SR接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+SR接收方向应用层递交数据: seqnum = 0, acknum = -1, checksum = 48831, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+SR接收方向应用层递交数据: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+SR接收方向应用层递交数据: seqnum = 2, acknum = -1, checksum = 43689, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+SR接收方向应用层递交数据: seqnum = 3, acknum = -1, checksum = 41118, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+SR接收方向应用层递交数据: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 0, checksum = 12851, ....................
+SR发送方当前滑动窗口：[ (1,未确认) (2,已确认) (3,已确认) (4,未确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 1, acknum = -1, checksum = 46260, TTTTTTTTTTTTTTTTTTTT
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 1, checksum = 12850, ....................
+SR发送方当前滑动窗口：[ (4,未确认) ]
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 4, acknum = -1, checksum = 38547, WWWWWWWWWWWWWWWWWWWW
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 4, checksum = 12847, ....................
+SR发送方当前滑动窗口：[ ]
+SR发送方发送报文: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
+SR发送方当前滑动窗口：[ (5,未确认) ]
+SR发送方发送报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
+SR发送方当前滑动窗口：[ (5,未确认) (6,未确认) ]
+SR发送方发送报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR发送方当前滑动窗口：[ (5,未确认) (6,未确认) (7,未确认) ]
+SR发送方发送报文: seqnum = 8, acknum = -1, checksum = 29865, EOF                 
+SR发送方当前滑动窗口：[ (5,未确认) (6,未确认) (7,未确认) (8,未确认) ]
+SR接收方正确接收到报文: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
+SR接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+SR接收方向应用层递交数据: seqnum = 5, acknum = -1, checksum = 35976, XXXXXXXXXXXXXXXXXXXX
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 5, checksum = 12846, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,未确认) ]
+SR接收方正确接收到报文: seqnum = 8, acknum = -1, checksum = 29865, EOF                 
+SR接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR接收方当前滑动窗口：[ * * 8 * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 8, checksum = 12843, ....................
+SR发送方当前滑动窗口：[ (6,未确认) (7,未确认) (8,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
+SR发送方定时器时间到，重发超时报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方正确接收到报文: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
+SR接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+SR接收方向应用层递交数据: seqnum = 6, acknum = -1, checksum = 33405, YYYYYYYYYYYYYYYYYYYY
+SR接收方当前滑动窗口：[ * 8 * * * * * * * ]
+SR接收方正确接收到报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+SR接收方向应用层递交数据: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：EOF                  
+SR接收方向应用层递交数据: seqnum = 8, acknum = -1, checksum = 29865, EOF                 
+SR接收方当前滑动窗口：[ * * * * * * * * * ]
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 6, checksum = 12845, ....................
+SR发送方当前滑动窗口：[ (7,未确认) (8,已确认) ]
+SR发送方定时器时间到，重发超时报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方收到的确认包校验有误
+SR发送方定时器时间到，重发超时报文: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方没有正确接收到报文，报文序号有误: seqnum = 7, acknum = -1, checksum = 30834, ZZZZZZZZZZZZZZZZZZZZ
+SR接收方重新发送ACK报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方正确收到确认，正在确认中: seqnum = -1, acknum = 7, checksum = 12844, ....................
+SR发送方当前滑动窗口：[ ]
+******模拟网络环境******：模拟网络环境已发送完应用层数据，关闭模拟网络环境
+已发送应用层Message个数: 105
+发送到网络层数据Packet个数: 164
+网络层丢失的数据Packet个数: 16
+网络层损坏的数据pakcet个数:13
+发送到网络层确认Packet个数:135
+网络层丢失的确认Packet个数: 10
+网络层损坏的确认Packet个数: 20
+

@@ -1,0 +1,17 @@
+﻿  Server.cpp
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\sources.h(43,16): warning C4099: “message”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\sources.h(43): message : 参见“message”的声明
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\Server.cpp(86,26): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  response.cpp
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\sources.h(43,16): warning C4099: “message”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\sources.h(43): message : 参见“message”的声明
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\response.cpp(27,2): warning C4091: “static ”: 没有声明变量时忽略“MSGs”的左侧
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\response.cpp(32,2): warning C4091: “static ”: 没有声明变量时忽略“ITMS”的左侧
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\response.cpp(37,2): warning C4091: “static ”: 没有声明变量时忽略“FTYPES”的左侧
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\response.cpp(116,26): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码
+  0 of 689 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  VerySimpleServer.vcxproj -> C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\Release\SimpleWebServer.exe

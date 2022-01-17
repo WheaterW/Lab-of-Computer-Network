@@ -1,0 +1,2 @@
+C:\Users\WYZ\Desktop\一些实验\计算机网络\实验二\Windows VS2019\StopWait\Debug\StopWait.exe
+C:\Users\WYZ\Desktop\一些实验\计算机网络\实验二\Windows VS2019\LAB2_RDT\Debug\RDT.exe

@@ -1,0 +1,7 @@
+﻿d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(VerySimpleServer.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Server.cpp
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\Server.cpp(98,26): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\Server.cpp(158,7): warning C4101: “tmp”: 未引用的局部变量
+Server.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  VerySimpleServer.vcxproj -> C:\Users\WYZ\OneDrive\Desktop\一些实验\计算机网络\实验一\submission\SimpleWebServer\Debug\SimpleWebServer.exe
